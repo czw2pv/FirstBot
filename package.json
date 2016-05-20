@@ -1,0 +1,20 @@
+{
+  "name": "first-bot",
+  "version": "0.0.1",
+  "description": "Awesomesause",
+  "main": "index.js",
+  "dependencies": {
+    "botbuilder": "^0.11.1",
+    "restify": "^4.0.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "awesomesause",
+    "package"
+  ],
+  "author": "Fredrik Nilsson",
+  "license": "MIT"
+}
