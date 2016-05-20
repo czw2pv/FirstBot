@@ -40,6 +40,6 @@ helloBot.add('/profile',  [
 server.use(helloBot.verifyBotFramework({ appId: 'YourAppId', appSecret: 'YourAppSecret' }));
 server.post('/v1/messages', helloBot.listen());
 
-server.listen(8080, function () {
+server.listen(3978, function () {
     console.log('%s listening to %s', server.name, server.url); 
 });
